@@ -254,7 +254,11 @@ h1 {
   height: 30px;
   border-radius: 15px;
 }
-
+.svg-close:hover,
+.svg-close:focus {
+  height: 14px;
+  fill: var(--accent-color);
+}
 /* ===========END FIRST BLOCK============ */
 
 .advantages-item-list {
